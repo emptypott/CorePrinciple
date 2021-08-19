@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.coreprinciple.another2.TwoPointTwoNote;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -87,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
         Line2D line = new Line2D();
 
         // 처음에는 null 로 초기화 되어 있다.
+
+        TwoPointTwoNote twoPointTwoNote = new TwoPointTwoNote();
+
+        // jeongsu is not public --> default.
+        twoPointTwoNote.jeongsu();
 
     }
 }
