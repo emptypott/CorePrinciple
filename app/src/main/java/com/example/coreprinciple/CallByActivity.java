@@ -103,4 +103,6 @@ public class CallByActivity extends AppCompatActivity {
 
     // 링크된다는 의미는 클래스가 메모리에 로딩될 때 특정 메모리 번지에 로딩되는데 이 메모리 번지는 로딩될 때마다 다른 번지수에
     // 로딩되게 된다.
+
+
 }
