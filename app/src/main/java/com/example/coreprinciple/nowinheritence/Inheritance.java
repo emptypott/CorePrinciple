@@ -49,4 +49,7 @@ public class Inheritance {
 
     // Java 의 경우 슈퍼 클래스와 서브 클래스가 언어 사양에 정의된 올바른 용어지만,
 
+    // Time to Reveal
+
+
 }
