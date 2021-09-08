@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.coreprinciple.nowinheritence.TwoMoreInter;
 import com.example.coreprinciple.returnpointer.PassObject;
 
 public class CallByActivity extends AppCompatActivity {
@@ -74,6 +75,7 @@ public class CallByActivity extends AppCompatActivity {
         // 수 없기 때문에 구현하기 어렵지만 값의 변경이 가능한 경우 call by reference 의 특징을 이용하여 다음과 같이 구현할 수 있다.
 
 
+        TwoMoreInter twoMoreInter = new TwoMoreInter(this);
     }
 
     // Java 의 메모리 모델
