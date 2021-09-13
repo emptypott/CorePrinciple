@@ -25,7 +25,6 @@ public class DaChaWon {
         for (int i = 0; i < 3; i++) {
             hoge[i] = new int[5];
         }
-
     }
 
     // new int[3][] 과 같이 도중에 앞의 요소수를 비워두면 거기서 부터 앞부분이 null 로 되어 있는 배열을 만들 수 있다.
